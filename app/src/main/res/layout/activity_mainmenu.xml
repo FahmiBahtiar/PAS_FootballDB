@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainmenu">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu1"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="46dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="169dp"
+            android:src="@mipmap/hiya"/>
+
+        <TextView
+            android:id="@+id/tvname01"
+            android:text="Chicken Dinner 1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0021FF"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tvname001"
+            android:text="List FootBall Club "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu2"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="#ffff"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="46dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="169dp"
+            android:src="@mipmap/paporit"/>
+
+        <TextView
+            android:id="@+id/tvname02"
+            android:text="Chicken Dinner 2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0021FF"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/tvname002"
+            android:text="Favourite FootBall Club "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_margin="140dp"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="LogOut"
+        android:id="@+id/btnlogout"/>
+
+</LinearLayout>
